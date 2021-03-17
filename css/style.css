@@ -18,6 +18,7 @@ header{
   display:flex;
   flex-direction: column;
   justify-content: center;
+  align-items:center;
 }
 
 /*Requirement 3*/
@@ -41,6 +42,7 @@ header{
     flex-direction: row;
     justify-content: center;
     flex-wrap:wrap;
+    align-content:center;
 }
 
 /*Requirement 5*/
@@ -110,6 +112,7 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   /*Requirement 10*/
@@ -131,6 +134,11 @@ header{
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion: reduce){
+  #logo{
+    animation-name:none;
+  }
+}
 /*Your code here again.*/
 
 
