@@ -54,6 +54,7 @@ header{
   /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
+  justify-content: center;
 
 }
 
@@ -161,7 +162,7 @@ header{
   }
   /*Requirement 16*/
   .price{
-    align-self: flex-end;
+    align-items:flex-end;
   }
   /*Requirement 17*/
   .package{
