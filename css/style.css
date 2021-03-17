@@ -138,6 +138,7 @@ header{
 @media screen and (prefers-reduced-motion: reduce){
   #logo{
     animation-name:none;
+    animation-duration:none;
   }
 }
 /*Your code here again.*/
